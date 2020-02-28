@@ -43,9 +43,19 @@ Here are the **Standard** BrainFuck instructions.
 | `,`         | Read **input** as [Ascii](https://www.wikiwand.com/no/ASCII) and save it to the current cell |
 | `.`         | **Output** the [Ascii](https://www.wikiwand.com/no/ASCII) value at the current cell. |
 
+# How BrainLove changes things 
 
+BrainLove will modify the `,` and `.` to allow BrainFuck to interface with more things. 
 
+## How will this work? (`,` , `.`)
 
+`,` and `.` would now both **output** to a buffer (They have Their own buffers), this buffer would be parsed when it is done.  The _Syntax_ of these buffers are: `<Category> <Function> [arg1] [arg2] ... `
 
+Adding a value to a buffer is as simple as calling `,` or `.` and the value at the current cell would be added to the buffer.  Buffers are _called_ when a value of **0** is added to it. so a example of opening a file would be:
 
+ `<Code for IO> <Code for open function> <file path> 0` And the data of the file would be written to the Memory, more on each function latter.
+
+## Current interpreters for BrainLove
+
+There are **Currently** no working interpreters, feel free to be the First!
 
