@@ -61,7 +61,7 @@ There are **Currently** no working interpreters, feel free to be the First!
 
 
 
-# BrainFuck functions
+# BrainLove functions
 
 Category title _syntax_ `Category Name (Category Code)` The `Category Code` is what you need to add to the buffer.
 
