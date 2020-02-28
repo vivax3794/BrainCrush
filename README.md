@@ -61,8 +61,28 @@ There are **Currently** no working interpreters, feel free to be the First!
 
 
 
-# BrainLove functions
+# How the Docs works
+
+Each Category has it's own markdown file.
 
 Category title _syntax_ `Category Name (Category Code)` The `Category Code` is what you need to add to the buffer.
 
 Function title _syntax_ `function Name (Function Code)` The `Function Code` is what you need to add to the buffer.
+
+
+
+# Example Programs
+
+## Cat
+
+Print back the users input
+
+```BrainFuck
+>     move to cell #1
++,,-, get input, see: Text.Input.Get
+<     move back cell #0
++..   add Text.Print to the buffer
+>[.>] add all input values to the buffer
+.     run buffer, printing input
+```
+
