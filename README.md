@@ -26,7 +26,22 @@ BrainFuck has Memory, you can think of it has a list of cell/values, or a tape. 
 
 A cell will always be in the range **0-255** (Inclusive), this means when a cell would go to **0** it goes to **255**, and when it goes to **256** it goes to **0**
 
-There is also a **pointer** that starts at cell #0 , the pointer **_Cant_** go to **-1** , if it does the interpreter should raise a error.
+There is also a **pointer** that starts at cell #0 , the pointer **_Cant_** go to **-1** , if it does the interpreter should raise a error. _Current cell_ Will referee to the cell the **Pointer** is currently at.
+
+### The instructions
+
+Here are the **Standard** BrainFuck instructions. 
+
+| Instruction | Description                                                  |
+| ----------- | ------------------------------------------------------------ |
+| `>`         | Move the **Pointer** to the **Right**.                       |
+| `<`         | Move the **Pointer** to the **Left**.                        |
+| `+`         | **Add 1** to the current cell.                               |
+| `-`         | **Subtract 1** from the current cell.                        |
+| `[`         | **If**  there is a **0** at the current cell jump to corresponding  `]` , if not continue to the next instruction. |
+| `]`         | **If**  there is a **Non-0 value** at the current cell jump yo corresponding  `[` , if not continue to the next instruction. |
+| `,`         | Read **input** as [Ascii](https://www.wikiwand.com/no/ASCII) and save it to the current cell |
+| `.`         | **Output **the [Ascii](https://www.wikiwand.com/no/ASCII) value at the current cell. |
 
 
 
