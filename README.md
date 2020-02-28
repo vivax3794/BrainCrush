@@ -49,9 +49,9 @@ BrainLove will modify the `,` and `.` to allow BrainFuck to interface with more 
 
 ## How will this work? (`,` , `.`)
 
-`,` and `.` would now both **output** to a buffer (They have Their own buffers), this buffer would be parsed when it is done.  The _Syntax_ of these buffers are: `<Category> <Function> [arg1] [arg2] ... `
+`,` and `.` would now both **output** to a buffer (They have their own buffers), this buffer would be parsed when it is done.  The _Syntax_ of these buffers are: `<Category> <Function> [arg1] [arg2] ... `
 
-Adding a value to a buffer is as simple as calling `,` or `.` and the value at the current cell would be added to the buffer.  Buffers are _called_ when a value of **0** is added to it. so a example of opening a file would be:
+Adding a value to a buffer is as simple as calling `,` or `.` and the value at the current cell would be added to the buffer.  Buffers are _called_ when a value of **0** is added to it. So a example of opening a file would be:
 
  `<Code for IO> <Code for open function> <file path> 0` And the data of the file would be written to the Memory, more on each function latter.
 
@@ -65,4 +65,4 @@ There are **Currently** no working interpreters, feel free to be the First!
 
 Category title _syntax_ `Category Name (Category Code)` The `Category Code` is what you need to add to the buffer.
 
-Function title _syntax_ `function Name (Function Code) Input/Output` The `Function Code` is what you need to add to the buffer, and `Input/Output` is whether this is called from `,` (Input) or `.` (Output) buffers
+Function title _syntax_ `function Name (Function Code)` The `Function Code` is what you need to add to the buffer.
