@@ -8,17 +8,17 @@ For Reading/Writing to files, making directories ect
 
 ### Read File(1)
 
-**Arguments: ** `File Path/Name`
+**Arguments:**  `File Path/Name`
 
-**Return: ** Contents of `File Path/Name` as ascii values.
+**Return:**  Contents of `File Path/Name` as ascii values.
 
 ## OUTPUT
 
 ### Write File (1)
 
-**Arguments: ** `File Path/Name || File contents`
+**Arguments:**  `File Path/Name || File contents`
 
-**Return: ** None
+**Return:**  None
 
 Writes `File contents` to `File Path/Name`
 
