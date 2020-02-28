@@ -21,7 +21,7 @@ Example code to get input:
 
 now if the users enters `abc`
 
-then the **memory **will look like: `97 98 99`
+then the **memory** will look like: `97 98 99`
 
 ## Output
 
