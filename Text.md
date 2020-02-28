@@ -44,7 +44,7 @@ Example code to get print input entered:
 .     run buffer, printing input
 ```
 
-Now if the user **enters: **`abc`
+Now if the user **enters:** `abc`
 
 The **Output** will be: `abc`
 
