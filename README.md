@@ -22,6 +22,15 @@ This is an explanation of the standard BrainFuck, This is what **BrainLove** wil
 
 ### The Memory / Tape
 
-BrainFuck has Memory, you can think of it has a list of cell/values, or a tape. This differ from intrepriters, but this is how **BrainLove** will do it:  
+BrainFuck has Memory, you can think of it has a list of cell/values, or a tape. This differ from interpreters, but this is how **BrainLove** will do it:
 
-​	
+A cell will always be in the range **0-255** (Inclusive), this means when a cell would go to **0** it goes to **255**, and when it goes to **256** it goes to **0**
+
+There is also a **pointer** that starts at cell #0 , the pointer **_Cant_** go to **-1** , if it does the interpreter should raise a error.
+
+
+
+
+
+
+
