@@ -1,6 +1,6 @@
 # BrainLove
 
-**BrainLove** is a new version of [Brainfuck](https://www.wikiwand.com/en/Brainfuck) , **BrainLove** is degined to let **BrainFuck** interagt with the "outsider world", this is actions like:
+**BrainLove** is a new version of [Brainfuck](https://www.wikiwand.com/en/Brainfuck) , **BrainLove** is degined to let **BrainFuck** interagt with the "outside world", this is actions like:
 
 * IO
 * Networking
