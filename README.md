@@ -10,15 +10,4 @@
 
 ## Why
 
-I fell in love with **BrainFuck**, I felt the main thing holding me back was the <u>interface</u>. Mainly standard **Brainfuck** only really has a text interface, text in (`,`) and text out (`.`). But what if you wnated to do more? Call apis for example, you cant. That is what **BrainLove** is here to change
-
-
-
-
-
-
-
-
-
-
-
+I fell in love with **BrainFuck**, I felt the main thing holding me back was the <u>interface</u>. Mainly standard **Brainfuck** only really has a text interface, text in (`,`) and text out (`.`). But what if you wnated to do more? Call apis for example, you cant. That is what **BrainLove** is here to change.
