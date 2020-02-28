@@ -69,7 +69,7 @@ Category title _syntax_ `Category Name (Category Code)` The `Category Code` is w
 
 Function title _syntax_ `function Name (Function Code)` The `Function Code` is what you need to add to the buffer.
 
-
+When the docs talk about _return_ it means that those value will be written at the current cell, and the cell to it's right
 
 # Example Programs
 

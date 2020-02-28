@@ -10,7 +10,9 @@ For getting text.
 
 **Arguments:** No arguments
 
-Get Text from console until a new-line, and store it in the next cells.  
+**Return: ** The input as ascii values. 
+
+Get Text from console until a new-line.
 
 Example code to get input:
 
@@ -29,7 +31,9 @@ Display text to the Console.
 
 ### Print (1)
 
-**Arguments:** Text
+**Arguments:** `Text`
+
+**Return: ** None
 
 Print `Text` to the console.
 

@@ -10,7 +10,9 @@ Mostly for things going in
 
 **Arguments:** `url` 
 
-Make a Get request to `url` and return the result as ascii text similar to Text.Get
+**Return:** Result of get request.
+
+Make a Get request to `url` and return the result.
 
 More advance functionality coming soon.
 
@@ -24,9 +26,9 @@ Mostly for things going out.
 
 **Arguments:** `url` 
 
-Make a Get request to `url` and return the result as ascii text similar to Text.Get
+**Return:** Result of post request.
+
+Make a Get request to `url` and return the result as ascii.
 
 More advance functionality coming soon, like headers ect.
-
-User-Agent will be: `BrainLove-Interpreter name`
 
