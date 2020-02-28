@@ -41,7 +41,7 @@ Example code to get print input entered:
 <     move back cell #0
 +..   add Text.Print to the buffer
 >[.>] add all input values to the buffer
-.     run buffer, printing input
+.     run buffer printing input
 ```
 
 Now if the user **enters:** `abc`
