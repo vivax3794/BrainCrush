@@ -86,3 +86,37 @@ Print back the users input
 .     run buffer printing input
 ```
 
+## Api Call / Random Number
+
+Gets a random number from [random.org](https://www.random.org/integers/?num=10&min=1&max=6&col=1&base=10&format=plain)
+
+```BrainFuck
+    +++++ +++++ +[->++++<]>,[-]< load networking
+    +,                           load get
+    +++++ ++++[-
+        > +++++ +++++ + set 110
+        > +++++ +++++   set 100
+        > +++++         set 50
+        > +++++ +       set 60
+        > ++++          set 40
+    <<<<<]
+    
+    >>++++, <+++++ +,, ----, +++,                       load: https
+    >>>--, <---,,                                       load ://
+    <<++++,,, >>-,                                      load www<dot>
+    <<-----, >----- --, <----, >+++, <+,-> <-,          load random
+    >>, <<++, +++, >+++,                                load <dot>org
+    >+, <++, <----, +++++ +, >----, ++, --, <--, +,     load /integers
+    >>, >+++++, <<<-----, +++++ ++, >+++++ +++,         load ?num
+    >>--, <++, -                                        load =10
+    >>--, <<<, ----, <----- --, >>>, <+,                load &min=1
+    >>, <<<<-, >----- ---, <+++++ +++++ +, >>>, <+++++, load &max=1
+    >>, <<<++, <----- ----, ---, >>>, <-----,           load &col=1
+    >>, <<<-, -, <+++++ ++, >++++, >>, <, -,            load &base=10
+    >>, <<<+, <----, +++, -----, >-----, <+++++ ++, >>>,load %format=
+    <<<----, ----, >, <---, +++++,                      load plain
+    [>]<[[-]<]                                          clear memory
+    >,                                                  call random api
+    <+..->[.>].                                         print response
+```
+
