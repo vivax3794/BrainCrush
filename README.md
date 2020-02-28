@@ -101,7 +101,7 @@ Gets a random number from [random.org](https://www.random.org/integers/?num=10&m
         > ++++          set 40
     <<<<<]
     
-    >>++++, <+++++ +,, ----, +++,                       load: https
+    >>++++, <+++++ +,, ----, +++,                       load https
     >>>--, <---,,                                       load ://
     <<++++,,, >>-,                                      load www<dot>
     <<-----, >----- --, <----, >+++, <+,-> <-,          load random
@@ -113,7 +113,7 @@ Gets a random number from [random.org](https://www.random.org/integers/?num=10&m
     >>, <<<<-, >----- ---, <+++++ +++++ +, >>>, <+++++, load &max=1
     >>, <<<++, <----- ----, ---, >>>, <-----,           load &col=1
     >>, <<<-, -, <+++++ ++, >++++, >>, <, -,            load &base=10
-    >>, <<<+, <----, +++, -----, >-----, <+++++ ++, >>>,load %format=
+    >>, <<<+, <----, +++, -----, >-----, <+++++ ++, >>>,load &format=
     <<<----, ----, >, <---, +++++,                      load plain
     [>]<[[-]<]                                          clear memory
     >,                                                  call random api
