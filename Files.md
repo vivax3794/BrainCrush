@@ -10,7 +10,15 @@ For Reading/Writing to files, making directories ect
 
 **Arguments: ** `File Path/Name`
 
-Read 
+**Return: ** Contents of `File Path/Name` as ascii values.
 
 ## OUTPUT
+
+### Write File (1)
+
+**Arguments: ** `File Path/Name || File contents`
+
+**Return: ** None
+
+Writes `File contents` to `File Path/Name`
 
