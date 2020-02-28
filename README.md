@@ -59,3 +59,10 @@ Adding a value to a buffer is as simple as calling `,` or `.` and the value at t
 
 There are **Currently** no working interpreters, feel free to be the First!
 
+
+
+# BrainFuck functions
+
+Category title _syntax_ `Category Name (Category Code)` The `Category Code` is what you need to add to the buffer.
+
+Function title _syntax_ `function Name (Function Code) Input/Output` The `Function Code` is what you need to add to the buffer, and `Input/Output` is whether this is called from `,` (Input) or `.` (Output) buffers
