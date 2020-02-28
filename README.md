@@ -39,9 +39,9 @@ Here are the **Standard** BrainFuck instructions.
 | `+`         | **Add 1** to the current cell.                               |
 | `-`         | **Subtract 1** from the current cell.                        |
 | `[`         | **If**  there is a **0** at the current cell jump to corresponding  `]` , if not continue to the next instruction. |
-| `]`         | **If**  there is a **Non-0 value** at the current cell jump yo corresponding  `[` , if not continue to the next instruction. |
+| `]`         | **If**  there is a **Non-0 value** at the current cell jump to corresponding  `[` , if not continue to the next instruction. |
 | `,`         | Read **input** as [Ascii](https://www.wikiwand.com/no/ASCII) and save it to the current cell |
-| `.`         | **Output **the [Ascii](https://www.wikiwand.com/no/ASCII) value at the current cell. |
+| `.`         | **Output** the [Ascii](https://www.wikiwand.com/no/ASCII) value at the current cell. |
 
 
 
