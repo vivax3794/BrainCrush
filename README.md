@@ -55,12 +55,6 @@ Adding a value to a buffer is as simple as calling `,` or `.` and the value at t
 
  `<Code for IO> <Code for open function> <file path> 0` And the data of the file would be written to the Memory, more on each function latter.
 
-## Current interpreters for BrainCrush
-
-First interpreter for BrainCrush create by me, [BLovePy](https://github.com/vivax3794/BLovePy) Still a work in progress.
-
-
-
 # How the Docs works
 
 Each Category has it's own markdown file.
@@ -70,6 +64,11 @@ Category title _syntax_ `Category Name (Category Code)` The `Category Code` is w
 Function title _syntax_ `function Name (Function Code)` The `Function Code` is what you need to add to the buffer.
 
 When the docs talk about _return_ it means that those value will be written at the current cell, and the cell to it's right
+
+# Current interpreters for BrainCrush
+
+First interpreter for BrainCrush create by me, [BCrushPy](https://github.com/vivax3794/BCrushPy) Still a work in progress.
+
 
 # Example Programs
 
