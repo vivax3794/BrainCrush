@@ -1,6 +1,6 @@
-# BrainLove
+# BrainCrush
 
-**BrainLove** is a new version of [Brainfuck](https://www.wikiwand.com/en/Brainfuck) , **BrainLove** is designed to let **BrainFuck** interact with the "outside world", this is actions like:
+**BrainCrush** is a new version of [Brainfuck](https://www.wikiwand.com/en/Brainfuck) , **BrainCrush** is designed to let **BrainFuck** interact with the "outside world", this is actions like:
 
 * IO
 * Networking
@@ -10,11 +10,11 @@
 
 ## Why
 
-I fell in love with **BrainFuck**, I felt the main thing holding me back was the <u>interface</u>. Mainly standard **Brainfuck** only really has a text interface, text in (`,`) and text out (`.`). But what if you wanted to do more? Call apis for example, you cant. That is what **BrainLove** is here to change. 
+I fell in love with **BrainFuck**, I felt the main thing holding me back was the <u>interface</u>. Mainly standard **Brainfuck** only really has a text interface, text in (`,`) and text out (`.`). But what if you wanted to do more? Call apis for example, you cant. That is what **BrainCrush** is here to change. 
 
 ## Standard BrainFuck
 
-This is an explanation of the standard BrainFuck, This is what **BrainLove** will build out from. 
+This is an explanation of the standard BrainFuck, This is what **BrainCrush** will build out from. 
 
 > **Brainfuck** is an [esoteric programming language](https://www.wikiwand.com/en/Esoteric_programming_language) created in 1993 by Urban Müller, and is notable for its extreme minimalism.
 
@@ -22,7 +22,7 @@ This is an explanation of the standard BrainFuck, This is what **BrainLove** wil
 
 ### The Memory / Tape
 
-BrainFuck has Memory, you can think of it has a list of cell/values, or a tape. This differ from interpreters, but this is how **BrainLove** will do it:
+BrainFuck has Memory, you can think of it has a list of cell/values, or a tape. This differ from interpreters, but this is how **BrainCrush** will do it:
 
 A cell will always be in the range **0-255** (Inclusive), this means when a cell would go to **-1** it goes to **255**, and when it goes to **256** it goes to **0**
 
@@ -43,9 +43,9 @@ Here are the **Standard** BrainFuck instructions.
 | `,`         | Read **input** as [Ascii](https://www.wikiwand.com/no/ASCII) and save it to the current cell |
 | `.`         | **Output** the [Ascii](https://www.wikiwand.com/no/ASCII) value at the current cell. |
 
-# How BrainLove changes things 
+# How BrainCrush changes things 
 
-BrainLove will modify the `,` and `.` to allow BrainFuck to interface with more things. 
+BrainCrush will modify the `,` and `.` to allow BrainFuck to interface with more things. 
 
 ## How will this work? (`,` , `.`)
 
@@ -55,9 +55,9 @@ Adding a value to a buffer is as simple as calling `,` or `.` and the value at t
 
  `<Code for IO> <Code for open function> <file path> 0` And the data of the file would be written to the Memory, more on each function latter.
 
-## Current interpreters for BrainLove
+## Current interpreters for BrainCrush
 
-First interpreter for BrainLove create by me, [BLovePy](https://github.com/vivax3794/BLovePy) Still a work in progress.
+First interpreter for BrainCrush create by me, [BLovePy](https://github.com/vivax3794/BLovePy) Still a work in progress.
 
 
 
