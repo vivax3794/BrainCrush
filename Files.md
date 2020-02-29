@@ -16,7 +16,7 @@ For Reading/Writing to files, making directories ect
 
 ### Write File (1)
 
-**Arguments:**  `File Path/Name || File contents`
+**Arguments:**  `File Path/Name <Value 1> File contents`
 
 **Return:**  None
 
