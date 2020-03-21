@@ -77,12 +77,7 @@ First interpreter for BrainCrush create by me, [BCrushPy](https://github.com/viv
 Print back the users input
 
 ```BrainFuck
->     move to cell #1
-+,,-, get input, see: Text.Input.Get
-<     move back cell #0
-+..   add Text.Print to the buffer
->[.>] add all input values to the buffer
-.     run buffer printing input
+>+,,-,<+..>[.>].
 ```
 
 ## Api Call / Random Number
