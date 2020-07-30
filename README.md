@@ -66,9 +66,7 @@ Function title _syntax_ `function Name (Function Code)` The `Function Code` is w
 When the docs talk about _return_ it means that those value will be written at the current cell, and the cell to it's right
 
 # Current interpreters for BrainCrush
-
-First interpreter for BrainCrush create by me, [BCrushPy](https://github.com/vivax3794/BCrushPy) Still a work in progress.
-
+None, sad face.
 
 # Example Programs
 
