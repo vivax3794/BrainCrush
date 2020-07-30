@@ -41,7 +41,7 @@ Example code to get and print input entered:
 
 ```BrainFuck
 >     move to cell #1
-+,,-, get input, see: Text.Input.Get
++,,-, get input, see: Text Input Get
 <     move back cell #0
 +..   add Text.Print to the buffer
 >[.>] add all input values to the buffer
