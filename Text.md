@@ -18,7 +18,7 @@ Example code to get input:
 
 ```BrainFuck
 +,, add Text Get to the buffer
-.,  Call buffer
+-,  Call buffer
 ```
 
 now if the users enters `abc`
