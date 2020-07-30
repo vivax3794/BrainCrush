@@ -10,14 +10,14 @@ For getting text.
 
 **Arguments:** No arguments
 
-**Return: ** The input as ascii values. 
+**Return:** The input as UTF-8 values. 
 
 Get Text from console until a new-line.
 
 Example code to get input:
 
 ```BrainFuck
-+,, add Text.Get to the buffer
++,, add Text Get to the buffer
 .,  Call buffer
 ```
 
@@ -33,11 +33,11 @@ Display text to the Console.
 
 **Arguments:** `Text`
 
-**Return: ** None
+**Return:** None
 
 Print `Text` to the console.
 
-Example code to get print input entered:
+Example code to get and print input entered:
 
 ```BrainFuck
 >     move to cell #1
