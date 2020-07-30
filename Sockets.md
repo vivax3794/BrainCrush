@@ -17,5 +17,5 @@ Setting-up socket and sending data.
 Send all the characther added to the buffer to the connected server
 
 ### Setup/Connect (2)
-creates a socket and connects to host/port (the buffer input)
+creates a socket and connects to `host/port` (the buffer input)
 port input is as the numbers ascci value for them. 
